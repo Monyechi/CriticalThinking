@@ -16,8 +16,14 @@ namespace CriticalThinking
         public ForLoops()
         {
             int i;
+            int j;
+            string userInput;
 
-            for (i = 9; i >= 0; i--)
+            Console.WriteLine("How Many Times Do You Want The Loop To Run?");
+            userInput = Console.ReadLine();
+            j = int.Parse(userInput);
+
+            for (i = 0; i <= j; i++)
             {
                 Console.WriteLine(i);
             }
