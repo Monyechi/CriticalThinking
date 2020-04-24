@@ -15,15 +15,13 @@ namespace CriticalThinking
         // constructor (SPAWNER) 
         public ForLoops()
         {
+            string helloWorld = "Hello World";
             int i;
-            int j;
-            string userInput;
-
-            Console.WriteLine("How Many Times Do You Want The Loop To Run?");
-            userInput = Console.ReadLine();
-            j = int.Parse(userInput);
-
-            for (i = 0; i <= j; i++)
+            int j;                     
+            
+            j = helloWorld.Length;           
+           
+            for (i = 0; i <= j - 1; i++)
             {
                 Console.WriteLine(i);
             }
