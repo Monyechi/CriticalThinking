@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class Run
     {
-        static void Main(string[] args)
+        public Run()
         {
-            Run run = new Run();
-            run.RunGame();
-            Console.ReadLine();
-            
+
+        }
+        public void RunGame()
+        {
+            ForLoops forLoops = new ForLoops();
+
+
         }
     }
 }
