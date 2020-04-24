@@ -17,7 +17,7 @@ namespace CriticalThinking
         {
             int i;
 
-            for (i = 0; i < 5; i++)
+            for (i = 9; i >= 0; i--)
             {
                 Console.WriteLine(i);
             }
