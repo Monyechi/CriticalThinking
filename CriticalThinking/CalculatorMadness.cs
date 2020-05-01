@@ -28,6 +28,24 @@ namespace CriticalThinking
 
             int results = AddTwoNumbers(results1, results2);
             Console.WriteLine("The result is " + results);
+        }
+        public int SubtractTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne - numberTwo;
+            return result;
+        }
+        public int MultiplyTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne * numberTwo;
+            return result;
+        }
+        public int DivideTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne / numberTwo;
+            return result;
+        }
+        public void SolveMathProblem()
+        {
 
         }
 
