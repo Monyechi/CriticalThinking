@@ -14,8 +14,7 @@ namespace CriticalThinking
         }
         public void RunGame()
         {
-            ForLoops forLoops = new ForLoops();
-
+            WhileLoops whileLoops = new WhileLoops();
 
         }
     }
