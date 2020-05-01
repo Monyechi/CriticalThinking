@@ -15,12 +15,14 @@ namespace CriticalThinking
         // constructor (SPAWNER) 
         public ForLoops()
         {
-            const string i = "Hello World";
-            foreach (char c in i)
+            string str = "Hello World";
+            var result = string.Empty;
+            for (var i = 0; i < str.Length; i++)
             {
-                Console.WriteLine(c);
+                if (i % 2 == 0) result += str[i];
             }
-          
+            Console.WriteLine(result);
+            Console.ReadLine();
 
         }
         // member methods (CAN DO)
