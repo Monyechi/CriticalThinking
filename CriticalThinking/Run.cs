@@ -14,7 +14,7 @@ namespace CriticalThinking
         }
         public void RunGame()
         {
-            WhileLoops whileLoops = new WhileLoops();
+            CalculatorMadness calculatorMadness = new CalculatorMadness();
 
         }
     }
