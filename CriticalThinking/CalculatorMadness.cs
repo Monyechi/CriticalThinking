@@ -11,6 +11,11 @@ namespace CriticalThinking
         public int numberOne;
         public int numberTwo;
 
+        public CalculatorMadness()
+        {
+            SolveMathProblem();
+        }
+
         public int AddTwoNumbers(int numberOne, int numberTwo)
         {
             int result = numberOne + numberTwo;            
@@ -18,15 +23,9 @@ namespace CriticalThinking
         }
         public void RunCalculations()
         {
-            numberOne = 8;
-            numberTwo = 40;
-            int results1 = AddTwoNumbers(numberOne, numberTwo);
-
-            numberOne = 200;
-            numberTwo = 50;
-            int results2 = AddTwoNumbers(numberOne, numberTwo);
-
-            int results = AddTwoNumbers(results1, results2);
+            int result1 = AddTwoNumbers(8, 40);
+            int result2 = AddTwoNumbers(200, 50);
+            int results = AddTwoNumbers(result1, result2);
             Console.WriteLine("The result is " + results);
         }
         public int SubtractTwoNumbers(int numberOne, int numberTwo)
@@ -45,7 +44,15 @@ namespace CriticalThinking
             return result;
         }
         public void SolveMathProblem()
-        {
+        {           
+            int result1 = AddTwoNumbers(6, 5);
+            int result2 = MultiplyTwoNumbers(40, 35);            
+            int result3 = DivideTwoNumbers(result2, 4);
+            int result4 = SubtractTwoNumbers(result1, result3);
+            int result5 = MultiplyTwoNumbers(2, 2);
+            int finaleResults = AddTwoNumbers(result4, result5);
+
+            Console.WriteLine(finaleResults);
 
         }
 
