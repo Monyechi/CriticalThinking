@@ -8,8 +8,8 @@ namespace CriticalThinking
 {
     class CPU
     {
-        string Manufacturer;
-        string Name;
+        public string Manufacturer;
+        public string Name;
 
         public CPU()
         {

@@ -8,8 +8,8 @@ namespace CriticalThinking
 {
     class GPU
     {
-        string Manufacturer;
-        double EffectiveMemory;
+        public string Manufacturer;
+        public double EffectiveMemory;
 
         public GPU()
         {

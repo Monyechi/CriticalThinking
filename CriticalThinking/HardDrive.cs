@@ -8,8 +8,9 @@ namespace CriticalThinking
 {
     class HardDrive
     {
-        double TotalStorage;
-        double AvailableStorage;
+        public double TotalStorage;
+        public double AvailableStorage;
+        public List<Applications> ApplicationsInHardDrive;
 
         public HardDrive()
         {

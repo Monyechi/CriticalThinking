@@ -10,10 +10,8 @@ namespace CriticalThinking
     {
         static void Main(string[] args)
         {
-            Run run = new Run();
-            run.RunGame();
-            Console.ReadLine();
             
         }
+
     }
 }
