@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Run
+    class GPU
     {
-        public Run()
-        {
+        string Manufacturer;
+        double EffectiveMemory;
 
-        }
-        public void RunGame()
+        public GPU()
         {
 
         }

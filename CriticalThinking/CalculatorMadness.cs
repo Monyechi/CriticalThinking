@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace CriticalThinking
 {    
     class CalculatorMadness
-    {
-        public int numberOne;
-        public int numberTwo;
+    {       
 
         public CalculatorMadness()
         {

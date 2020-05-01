@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Run
+    class Computer
     {
-        public Run()
-        {
 
-        }
-        public void RunGame()
-        {
-
-        }
     }
 }

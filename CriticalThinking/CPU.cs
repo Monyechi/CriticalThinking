@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Run
+    class CPU
     {
-        public Run()
-        {
+        string Manufacturer;
+        string Name;
 
-        }
-        public void RunGame()
+        public CPU()
         {
 
         }

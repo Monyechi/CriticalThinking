@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Run
+    class RAM
     {
-        public Run()
-        {
+        double TotalGigabtes;
+        string Brand;
 
-        }
-        public void RunGame()
+        public RAM()
         {
 
         }

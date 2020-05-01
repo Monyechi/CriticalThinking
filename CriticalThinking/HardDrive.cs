@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Run
+    class HardDrive
     {
-        public Run()
-        {
+        double TotalStorage;
+        double AvailableStorage;
 
-        }
-        public void RunGame()
+        public HardDrive()
         {
 
         }
