@@ -19,7 +19,7 @@ namespace CriticalThinking
             var result = string.Empty;
             for (var i = 0; i < str.Length; i++)
             {
-                if (i % 2 == 0) result += str[i];
+                if (i % 3 == 0) result += str[i];
             }
             Console.WriteLine(result);
             Console.ReadLine();
