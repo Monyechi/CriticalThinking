@@ -15,5 +15,9 @@ namespace CriticalThinking
         {
 
         }
+        public void InstallApplication(Applications applications)
+        {
+            
+        }
     }
 }

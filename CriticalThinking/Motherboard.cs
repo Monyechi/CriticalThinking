@@ -22,6 +22,9 @@ namespace CriticalThinking
             Storage = hardDrive;
             Graphics = gpu;
 
+            
         }
+        
+
     }
 }
